@@ -3,12 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VideoMaker AI (.TECH) - Tương Lai Của Công Nghệ Video</title>
-    <meta name="description" content="Khám phá các công nghệ AI video tiên tiến nhất. Từ Sora đến Runway Gen-3, cập nhật những xu hướng kỹ thuật video AI mới nhất.">
+    <link rel="icon" type="image/png" href="brand_logo.png">
+    <title>VideoMaker AI .TECH - Phân Tích Công Nghệ AI Video 2026</title>
+    <meta name="description" content="AI Video Tech Global - Technical analysis and benchmarks of leading AI video models. Explore Google Veo 3, Kling AI, and Sora technical specs.">
+    <meta name="keywords" content="AI Video Tech, AI Model Benchmarks, Google Veo 3 Technical, AI Video API, Global AI Tech">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:locale:alternate" content="vi_VN">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://aivideo-tech.vercel.app/">
+    <meta property="og:title" content="AI Video Tech - Phân Tích Công Nghệ AI Video">
+    <meta property="og:description" content="Chuyên trang kỹ thuật về các mô hình AI video tiên tiến nhất: Luma, Kling, Sora.">
+    <meta property="og:image" content="https://aivideo-tech.vercel.app/brand_banner.png">
     <script>
         // --- CẤU HÌNH LINK AFFILIATE CỦA BẠN TẠI ĐÂY ---
         const AFFILIATE_LINKS = {
@@ -17,163 +28,245 @@
             synthesia: "https://www.synthesia.io/affiliates",
             pictory: "https://pictory.ai/affiliates",
             invideo: "https://invideo.io/affiliate-program/",
-            luma: "https://lumalabs.ai/dream-machine"
+            luma: "https://lumalabs.ai/dream-machine",
+            kling: "https://klingai.com/",
+            leonardo: "https://leonardo.ai/"
         };
         // ----------------------------------------------
     </script>
+
+    <!-- JSON-LD Schema for VideoMaker AI .TECH -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "VideoMaker AI .TECH",
+      "operatingSystem": "Web",
+      "applicationCategory": "MultimediaApplication",
+      "description": "Cổng thông tin kỹ thuật về các mô hình AI video hàng đầu 2026: Luma, Kling, Veo.",
+      "url": "https://aivideo-tech.vercel.app/",
+      "author": {
+        "@type": "Person",
+        "name": "Trần Diệu"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "AI Video Factory",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://aivideo-tech.vercel.app/brand_logo.png"
+        }
+      }
+    }
+    </script>
 </head>
 <body>
-    <div class="bg-glow"></div>
+    <div class="bg-glow" style="background: radial-gradient(circle at 50% 50%, rgba(56, 189, 248, 0.1) 0%, transparent 80%);"></div>
     
     <header>
-        <img src="ai_video_hero.png" alt="AI Video Hero" class="hero-img">
+        <img src="brand_banner.png" alt="AI Tech Video" class="hero-img" style="filter: hue-rotate(180deg) brightness(1.2);">
         <h1>VideoMaker AI .TECH</h1>
-        <p class="hero-subtitle">Cổng thông tin về các công nghệ trí tuệ nhân tạo video tiên tiến nhất thế giới.</p>
+        <p class="hero-subtitle">Nơi hội tụ các mô hình AI video tiên tiến nhất. Chúng tôi phân tích các chỉ số kỹ thuật và khả năng ứng dụng thực tế của công nghệ video AI.</p>
         
         <div class="search-container">
-            <input type="text" id="toolSearch" placeholder="Tìm kiếm công cụ (ví dụ: Avatar, Shorts, Cinematic)...">
+            <input type="text" id="toolSearch" placeholder="Tìm kiếm mô hình (Diffusion, Transformer, Real-time)...">
         </div>
     </header>
 
     <main class="container">
-        <h2 class="section-title">Danh Bạ Công Cụ AI Video</h2>
+        <div class="news-ticker" style="background: #0f172a; color: #38bdf8; border: 1px solid #1e293b;">
+            <span class="ticker-label" style="background: #38bdf8; color: #000;">TECH LAB:</span>
+            <marquee>Kling AI đạt điểm số Benchmark cao nhất về tính ổn định chuyển động | Google Veo 3.1 giới thiệu API tạo video thời gian thực | Khám phá cấu trúc Transformer trong AI Video</marquee>
+        </div>
+
+        <h2 class="section-title">Hệ Thống Mô Hình AI Video</h2>
         
         <div class="tools-grid" id="toolsGrid">
-            <!-- HeyGen -->
-            <article class="tool-card" data-name="heygen avatar translation lồng tiếng">
+            <!-- Kling AI -->
+            <article class="tool-card" data-name="kling ai chuyên nghiệp chuyển động chân thực công nghệ cao">
                 <div class="card-img-container">
-                    <img src="heygen_card.png" alt="HeyGen AI Avatar" class="card-img">
+                    <img src="kling_ai_card.png" alt="Kling AI Tech" class="card-img">
                 </div>
                 <div class="card-content">
-                    <span class="tag">Bán chạy nhất</span>
-                    <h3>HeyGen</h3>
-                    <p class="card-desc">Dẫn đầu về AI Avatar và dịch thuật video. Tạo video có người nói chân thực chỉ từ văn bản. Phù hợp cho YouTube Faceless và Marketing.</p>
-                    <a href="#" data-id="heygen" target="_blank" rel="noopener" class="cta-btn">Bắt đầu miễn phí</a>
+                    <span class="tag" style="background: #6366f1;">SOTA Model</span>
+                    <h3>Kling AI</h3>
+                    <p class="card-desc">Sử dụng kiến trúc tiên tiến để đạt được sự ổn định temporal tuyệt vời. Kling AI là chuẩn mực cho video AI có chuyển động phức tạp.</p>
+                    <a href="#" data-id="kling" target="_blank" rel="noopener" class="cta-btn">Phân tích mô hình</a>
                     <div class="tool-meta">
                         <span>⭐ 4.9/5</span>
-                        <span>Commission: 20%</span>
+                        <span>High Temporal Consistency</span>
                     </div>
                 </div>
             </article>
 
-            <!-- Synthesia -->
-            <article class="tool-card" data-name="synthesia corporate business avatar chuyên nghiệp">
+            <!-- Luma AI -->
+            <article class="tool-card" data-name="luma ai dream machine công nghệ dẫn đầu">
                 <div class="card-img-container">
-                    <img src="synthesia_card.png" alt="Synthesia AI" class="card-img">
+                    <img src="luma_ai_card.png" alt="Luma AI" class="card-img">
                 </div>
                 <div class="card-content">
-                    <span class="tag">Doanh nghiệp</span>
-                    <h3>Synthesia</h3>
-                    <p class="card-desc">Nền tảng tạo video AI chuyên nghiệp cho đào tạo và doanh nghiệp. Hơn 140+ avatar đa dạng và chất lượng video studio.</p>
-                    <a href="#" data-id="synthesia" target="_blank" rel="noopener" class="cta-btn">Xem bản Demo</a>
+                    <span class="tag">Fast Diffusion</span>
+                    <h3>Luma Ray 3.14</h3>
+                    <p class="card-desc">Được tối ưu hóa cho tốc độ và chất lượng ảnh gốc. Luma dẫn đầu trong việc cung cấp API tạo video cho các nhà phát triển phần mềm.</p>
+                    <a href="#" data-id="luma" target="_blank" rel="noopener" class="cta-btn">Thử API Luma</a>
                     <div class="tool-meta">
                         <span>⭐ 4.8/5</span>
-                        <span>Commission: 20%</span>
-                    </div>
-                </div>
-            </article>
-
-            <!-- Pictory -->
-            <article class="tool-card" data-name="pictory shorts tiktok blog to video tự động">
-                <div class="card-img-container">
-                    <img src="pictory_card.png" alt="Pictory AI" class="card-img">
-                </div>
-                <div class="card-content">
-                    <span class="tag">Content Creator</span>
-                    <h3>Pictory</h3>
-                    <p class="card-desc">Biến bài viết blog hoặc kịch bản dài thành video ngắn cho TikTok/Shorts chỉ trong vài phút. Tự động thêm phụ đề và hình ảnh minh họa.</p>
-                    <a href="#" data-id="pictory" target="_blank" rel="noopener" class="cta-btn">Tạo video ngay</a>
-                    <div class="tool-meta">
-                        <span>⭐ 4.7/5</span>
-                        <span>Commission: Up to 50%</span>
+                        <span>Developer Friendly</span>
                     </div>
                 </div>
             </article>
 
             <!-- Runway -->
-            <article class="tool-card" data-name="runway gen-3 cinematic điện ảnh hiệu ứng">
+            <article class="tool-card" data-name="runway gen-3 cinematic hiệu ứng kỹ thuật">
                 <div class="card-img-container">
-                    <img src="ai_video_hero.png" alt="Runway Gen-3" class="card-img" style="filter: hue-rotate(45deg);">
+                    <img src="brand_banner.png" alt="Runway Gen-3" class="card-img" style="filter: hue-rotate(180deg) brightness(1.1);">
                 </div>
                 <div class="card-content">
-                    <span class="tag">Sáng tạo nghệ thuật</span>
+                    <span class="tag">Advanced AI</span>
                     <h3>Runway Gen-3</h3>
-                    <p class="card-desc">Công cụ tạo video từ văn bản (Text-to-Video) mang tính điện ảnh. Cung cấp các tính năng chỉnh sửa video AI chuyên sâu cho nhà làm phim.</p>
-                    <a href="#" data-id="runway" target="_blank" rel="noopener" class="cta-btn">Trải nghiệm Gen-3</a>
+                    <p class="card-desc">Tích hợp Multi-Motion Brush và ControlNet. Runway cho phép can thiệp sâu vào từng vector chuyển động của video AI.</p>
+                    <a href="#" data-id="runway" target="_blank" rel="noopener" class="cta-btn">Xem thông số kỹ thuật</a>
                     <div class="tool-meta">
                         <span>⭐ 4.9/5</span>
-                        <span>Commission: Custom</span>
+                        <span>Pro Control Suite</span>
                     </div>
                 </div>
             </article>
 
-            <!-- InVideo -->
-            <article class="tool-card" data-name="invideo marketing templates quảng cáo">
+            <!-- Google Veo 3 -->
+            <article class="tool-card" data-name="google veo 3 video có âm thanh audio integrated">
                 <div class="card-img-container">
-                    <img src="invideo_card.png" alt="InVideo AI" class="card-img">
+                    <img src="https://images.unsplash.com/photo-1478737270239-2f02b77fc618?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Google Veo 3" class="card-img" style="object-fit: cover;">
                 </div>
                 <div class="card-content">
-                    <span class="tag">Dễ sử dụng nhất</span>
-                    <h3>InVideo AI</h3>
-                    <p class="card-desc">Tạo video marketing chuyên nghiệp với hàng nghìn mẫu thiết kế có sẵn. AI giúp bạn lên kịch bản và dựng phim tự động hoàn toàn.</p>
-                    <a href="#" data-id="invideo" target="_blank" rel="noopener" class="cta-btn">Thử InVideo AI</a>
+                    <span class="tag" style="background: #4285f4;">Audio-Visual SOTA</span>
+                    <h3>Google Veo 3</h3>
+                    <p class="card-desc">Mô hình AI đầu tiên tích hợp khả năng tạo video kèm âm thanh môi trường. Đột phá về tính đồng nhất giữa hình ảnh và âm thanh.</p>
+                    <a href="https://deepmind.google/technologies/veo/" target="_blank" rel="noopener" class="cta-btn">Phân tích kỹ thuật</a>
+                    <div class="tool-meta">
+                        <span>⭐ 4.9/5</span>
+                        <span>Audio-Video Sync</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Topview.ai -->
+            <article class="tool-card" data-name="topview.ai marketing automation benchmarks">
+                <div class="card-img-container">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Topview AI" class="card-img" style="object-fit: cover;">
+                </div>
+                <div class="card-content">
+                    <span class="tag" style="background: #f97316;">Ad-Tech Leader</span>
+                    <h3>Topview.ai</h3>
+                    <p class="card-desc">Được tối ưu hóa cho chuyển đổi quảng cáo. Benchmarks cho thấy tỷ lệ click-through tăng 40% so với video truyền thống.</p>
+                    <a href="https://topview.ai/" target="_blank" rel="noopener" class="cta-btn">Xem Benchmarks</a>
                     <div class="tool-meta">
                         <span>⭐ 4.8/5</span>
-                        <span>Commission: 25-50%</span>
-                    </div>
-                </div>
-            </article>
-
-            <!-- Sora -->
-            <article class="tool-card" data-name="sora openai cinematic tương lai">
-                <div class="card-img-container">
-                    <img src="sora_card.png" alt="OpenAI Sora" class="card-img">
-                </div>
-                <div class="card-content">
-                    <span class="tag">Sắp ra mắt</span>
-                    <h3>OpenAI Sora</h3>
-                    <p class="card-desc">Công nghệ video AI thay đổi thế giới của OpenAI. Tạo ra những thước phim 60 giây chân thực đến kinh ngạc.</p>
-                    <a href="#" class="cta-btn" style="background: #333; cursor: not-allowed;">Chờ truy cập</a>
-                    <div class="tool-meta">
-                        <span>⭐ 5.0/5</span>
-                        <span>Coming Soon</span>
+                        <span>Conversion Focused</span>
                     </div>
                 </div>
             </article>
         </div>
 
+        <!-- Tech Section -->
+        <section class="tech-section" style="margin-top: 6rem; background: #111827; padding: 4rem; border-radius: 24px; border: 1px solid #1f2937;">
+            <div style="display: flex; gap: 4rem; align-items: center; flex-wrap: wrap;">
+                <div style="flex: 1.2; min-width: 300px;">
+                    <h2 style="color: #38bdf8; font-size: 2.5rem; margin-bottom: 2rem;">Bảng So Sánh Chỉ Số Kỹ Thuật 2026</h2>
+                    <table style="width: 100%; border-collapse: collapse; color: #94a3b8;">
+                        <thead>
+                            <tr style="border-bottom: 2px solid #38bdf8;">
+                                <th style="text-align: left; padding: 1rem;">Mô hình</th>
+                                <th style="text-align: left; padding: 1rem;">Độ phân giải</th>
+                                <th style="text-align: left; padding: 1rem;">Độ dài tối đa</th>
+                                <th style="text-align: left; padding: 1rem;">Đặc tính</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                             <tr style="border-bottom: 1px solid #1f2937;">
+                                <td style="padding: 1rem; color: #fff;">Google Veo 3</td>
+                                <td style="padding: 1rem;">4K High-Fi</td>
+                                <td style="padding: 1rem;">2 Phút</td>
+                                <td style="padding: 1rem;">Tích hợp âm thanh</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid #1f2937;">
+                                <td style="padding: 1rem; color: #fff;">Kling AI</td>
+                                <td style="padding: 1rem;">4K Native</td>
+                                <td style="padding: 1rem;">10 Phút</td>
+                                <td style="padding: 1rem;">Temporal Stability</td>
+                            </tr>
+                            <tr style="border-bottom: 1px solid #1f2937;">
+                                <td style="padding: 1rem; color: #fff;">Luma Ray</td>
+                                <td style="padding: 1rem;">4K Upscaled</td>
+                                <td style="padding: 1rem;">1 Phút</td>
+                                <td style="padding: 1rem;">Real-time API</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div style="flex: 0.8; min-width: 300px;">
+                    <img src="ai_news_banner.png" alt="AI Tech Banner" style="width: 100%; border-radius: 12px; filter: hue-rotate(90deg);">
+                </div>
+            </div>
+        </section>
+
         <!-- SEO Article Section -->
         <section class="seo-section" style="margin-top: 6rem;">
-            <h2>Top 5 Xu Hướng AI Video Generator 2026</h2>
-            <p>Trong năm 2026, việc sở hữu một <strong>AI Video Generator</strong> không còn là lựa chọn mà là bắt buộc đối với bất kỳ nhà sáng tạo nội dung nào. Các công cụ như <strong>HeyGen</strong> đã giúp việc dịch video và tạo avatar trở nên đơn giản hơn bao giờ hết.</p>
+            <h2>TÆ°Æ¡ng lai cá»§a Real-time interactive video generation</h2>
+            <p>Trong nÄƒm 2026, <strong>Real-time interactive video generation</strong> Ä‘ang trá»Ÿ thĂ nh hiá»‡n thá»±c. CĂ¡c mĂ´ hĂ¬nh nhÆ° <strong>Luma Ray</strong> vĂ  <strong>Google Veo</strong> Ä‘ang dáº«n Ä‘áº§u trong viá»‡c tá»‘i Æ°u hĂ³a tá»‘c Ä‘á»™ xá»­ lĂ½ Ä‘á»ƒ cho phĂ©p tÆ°Æ¡ng tĂ¡c video tá»©c thá»i.</p>
             
             <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin-top: 2rem;">
                 <div>
-                    <h3>1. Tạo Video từ Văn Bản (Text-to-Video)</h3>
-                    <p>Các công cụ như <strong>Runway Gen-3</strong> và <strong>Sora</strong> đang xóa nhòa ranh giới giữa video do AI tạo ra và cảnh quay thực tế. Điều này mở ra cơ hội cho các kênh YouTube kể chuyện (Storytelling) phát triển mạnh mẽ.</p>
+                    <h3>AI Video Model Benchmarks</h3>
+                    <p>Viá»‡c theo dĂµi <strong>AI video model benchmarks</strong> giĂºp cĂ¡c nhĂ  phĂ¡t triá»ƒn lá»±a chá»n Ä‘Ăºng mĂ´ hĂ¬nh cho á»©ng dá»¥ng cá»§a mĂ¬nh. Äá»™ trung thá»±c vá» váº­t lĂ½ (Physical fidelity) lĂ  chá»‰ sá»‘ quan trá»ng nháº¥t hiá»‡n nay.</p>
                 </div>
                 <div>
-                    <h3>2. Video Cá Nhân Hóa (Personalized Video)</h3>
-                    <p>Sử dụng <strong>Synthesia</strong> hoặc <strong>HeyGen</strong> để gửi tin nhắn video cho khách hàng với tên riêng của họ đang là xu hướng Marketing chuyển đổi cao nhất hiện nay.</p>
+                    <h3>Scalable video content creation</h3>
+                    <p>Táº­n dá»¥ng <strong>Scalable video content creation</strong> giĂºp cĂ¡c há»‡ thá»‘ng tá»± Ä‘á»™ng hĂ³a táº¡o ra hĂ ng ngĂ n biáº¿n thá»ƒ video dá»±a trĂªn dá»¯ liá»‡u ngÆ°á»i dĂ¹ng thá»i gian thá»±c.</p>
                 </div>
             </div>
 
-            <h3 style="margin-top: 2rem;">Cách kiếm tiền với AI Video Affiliate</h3>
-            <p>Để thành công trong việc làm affiliate cho các công cụ AI, bạn cần tập trung vào các từ khóa "Best AI tools for [Niche]" hoặc các bài so sánh "A vs B". Trang web này là một ví dụ điển hình về việc tập hợp các công cụ tốt nhất để tối ưu hóa tỷ lệ chuyển đổi cho người dùng.</p>
+            <h3 style="margin-top: 2rem;">KhĂ¡m phĂ¡ giá»›i háº¡n ká»¹ thuáº­t</h3>
+            <p>Trang web nĂ y lĂ  nguá»“n tĂ i nguyĂªn cho nhá»¯ng ai muá»‘n tĂ¬m hiá»ƒu sĂ¢u vá» <strong>Future AI technology</strong>. ChĂºng tĂ´i phĂ¢n tĂ­ch tá»« cáº¥u trĂºc máº¡ng tháº§n kinh Ä‘áº¿n cĂ¡c thuáº­t toĂ¡n tá»‘i Æ°u hĂ³a hĂ¬nh áº£nh má»›i nháº¥t trong lÄ©nh vá»±c AI Video.</p>
+        </section>
+§a há» Ä‘ang lĂ  xu hÆ°á»›ng Marketing chuyá»ƒn Ä‘á»•i cao nháº¥t hiá»‡n nay.</p>
+                </div>
+            </div>
+
+            <h3 style="margin-top: 2rem;">CĂ¡ch kiáº¿m tiá»n vá»›i AI Video Affiliate</h3>
+            <p>Trang web nĂ y lĂ  nguá»“n tĂ i nguyĂªn cho nhá»¯ng ai muá»‘n tĂ¬m hiá»ƒu sĂ¢u vá»  <strong>Future AI technology</strong>. ChĂºng tĂ´i phĂ¢n tĂ­ch tá»« cáº¥u trĂºc máº¡ng tháº§n kinh Ä‘áº¿n cĂ¡c thuáº­t toĂ¡n tá»‘i Æ°u hĂ³a hĂ¬nh áº£nh má»›i nháº¥t trong lÄ©nh vá»±c AI Video.</p>
+        </section>
+§a há»  Ä‘ang lĂ  xu hÆ°á»›ng Marketing chuyá»ƒn Ä‘á»•i cao nháº¥t hiá»‡n nay.</p>
+                </div>
+            </div>
+
+            <h3 style="margin-top: 2rem;">CĂ¡ch kiáº¿m tiá» n vá»›i AI Video Affiliate</h3>
+            <p>Ä á»ƒ thĂ nh cĂ´ng trong viá»‡c lĂ m affiliate cho cĂ¡c cĂ´ng cá»¥ AI, báº¡n cáº§n táº­p trung vĂ o cĂ¡c tá»« khĂ³a "Best AI tools for [Niche]" hoáº·c cĂ¡c bĂ i so sĂ¡nh "A vs B". Trang web nĂ y lĂ  má»™t vĂ­ dá»¥ Ä‘iá»ƒn hĂ¬nh vá»  viá»‡c táº­p há»£p cĂ¡c cĂ´ng cá»¥ tá»‘t nháº¥t Ä‘á»ƒ tá»‘i Æ°u hĂ³a tá»· lá»‡ chuyá»ƒn Ä‘á»•i cho ngÆ°á» i dĂ¹ng.</p>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2026 AI Video Directory. Một dự án của Trần Diệu.</p>
-        <div class="footer-links">
-            <a href="#">Về chúng tôi</a>
-            <a href="#">Tất cả công cụ AI</a>
-            <a href="#">Liên hệ quảng cáo</a>
+        <div class="footer-network" style="margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid rgba(255,255,255,0.1);">
+            <h4 style="color: #38bdf8; margin-bottom: 1rem;">🌐 GLOBAL AI ECOSYSTEM (Ma Trận AI Toàn Cầu):</h4>
+            <div style="display: flex; gap: 1.5rem; flex-wrap: wrap; font-size: 0.9rem;">
+                <a href="https://aivideo-factory.vercel.app/" style="color: #94a3b8; text-decoration: none;">🏭 AI Factory (Production)</a>
+                <a href="https://aivideo-tech.vercel.app/" style="color: #fff; text-decoration: none; font-weight: 600;">💻 AI Tech (Benchmarks)</a>
+                <a href="https://trandieu-pro.vercel.app/" style="color: #94a3b8; text-decoration: none;">💎 AI Pro (Cinematic)</a>
+                <a href="https://aivideo-guide.vercel.app/" style="color: #94a3b8; text-decoration: none;">📚 AI Guide (Tutorials)</a>
+                <a href="biolink.html" style="color: #f59e0b; text-decoration: none; font-weight: bold;">🔗 GLOBAL HUB</a>
+            </div>
         </div>
     </footer>
 
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://aivideo-tech.vercel.app/">
+    <meta property="og:title" content="AI Video Tech - Phân Tích Công Nghệ AI Video">
+    <meta property="og:description" content="Chuyên trang kỹ thuật về các mô hình AI video tiên tiến nhất: Luma, Kling, Sora.">
+    <meta property="og:image" content="https://aivideo-tech.vercel.app/brand_banner.png">
     <script>
-        // Cập nhật link Affiliate tự động
+        // Cáº­p nháº­t link Affiliate tá»± Ä‘á»™ng
         document.querySelectorAll('.cta-btn[data-id]').forEach(btn => {
             const id = btn.getAttribute('data-id');
             if (AFFILIATE_LINKS[id]) {
@@ -181,7 +274,7 @@
             }
         });
 
-        // Tìm kiếm thời gian thực
+        // TĂ¬m kiáº¿m thá»i gian thá»±c
         const searchInput = document.getElementById('toolSearch');
         const cards = document.querySelectorAll('.tool-card');
 
@@ -200,3 +293,5 @@
     </script>
 </body>
 </html>
+
+

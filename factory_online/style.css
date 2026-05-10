@@ -268,3 +268,24 @@ footer {
     .hero-subtitle { font-size: 1rem; }
     .tools-grid { grid-template-columns: 1fr; }
 }
+
+/* --- PREMIUM POLISH BY ANTIGRAVITY --- */
+html { scroll-behavior: smooth; }
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: #0a0a12; }
+::-webkit-scrollbar-thumb { background: #38bdf8; border-radius: 10px; }
+::-webkit-scrollbar-thumb:hover { background: #8a2be2; }
+
+.tool-card { border: 1px solid rgba(56, 189, 248, 0.1); }
+.tool-card:hover { border-color: #38bdf8; box-shadow: 0 0 30px rgba(56, 189, 248, 0.15); }
+
+@keyframes marquee {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+}
+
+.news-ticker marquee {
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+/* --- END PREMIUM POLISH --- */

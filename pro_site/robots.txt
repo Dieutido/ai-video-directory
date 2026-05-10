@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://trandieu-pro.vercel.app/sitemap.xml

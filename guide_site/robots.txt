@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://aivideo-guide.vercel.app/sitemap.xml

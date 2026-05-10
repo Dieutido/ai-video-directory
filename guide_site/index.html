@@ -3,8 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HeyGen Guide (.SITE) - Hướng Dẫn Làm Video AI Từ A-Z</title>
-    <meta name="description" content="Trang web tổng hợp hướng dẫn và review các công cụ AI Video tốt nhất. Tập trung vào HeyGen và các giải pháp tạo video AI hiệu quả nhất.">
+    <link rel="icon" type="image/png" href="brand_logo.png">
+    <title>AI Video Guide - Cách Tạo Video AI Tiếng Việt Miễn Phí Từ Ảnh & Văn Bản</title>
+    <meta name="description" content="AI Video Learning Guide Global - Learn to create AI videos for TikTok and YouTube. Free tutorials for CapCut, Luma, and more.">
+    <meta name="keywords" content="AI Video Guide, Learn AI Video, CapCut AI, AI Video Tutorials, Global AI Education">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:locale:alternate" content="vi_VN">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,154 +21,246 @@
             synthesia: "https://www.synthesia.io/affiliates",
             pictory: "https://pictory.ai/affiliates",
             invideo: "https://invideo.io/affiliate-program/",
-            luma: "https://lumalabs.ai/dream-machine"
+            luma: "https://lumalabs.ai/dream-machine",
+            pika: "https://pika.art/",
+            leonardo: "https://leonardo.ai/"
         };
         // ----------------------------------------------
+    </script>
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://aivideo-guide.vercel.app/">
+    <meta property="og:title" content="AI Video Guide - Hướng Dẫn Làm Video AI Từ A-Z">
+    <meta property="og:description" content="Học cách làm video AI triệu view trên TikTok & YouTube cho người mới bắt đầu.">
+    <meta property="og:image" content="https://aivideo-guide.vercel.app/brand_banner.png">
+    <!-- JSON-LD Schema for AI Video Guide -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "AI Video Learning Guide",
+      "operatingSystem": "Web",
+      "applicationCategory": "EducationalApplication",
+      "description": "Cẩm nang thực chiến làm video AI cho người mới bắt đầu.",
+      "url": "https://aivideo-guide.vercel.app/",
+      "author": {
+        "@type": "Person",
+        "name": "Trần Diệu"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "AI Video Factory",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://aivideo-guide.vercel.app/brand_logo.png"
+        }
+      }
+    }
     </script>
 </head>
 <body>
     <div class="bg-glow"></div>
     
     <header>
-        <img src="ai_video_hero.png" alt="AI Video Hero" class="hero-img">
-        <h1>HeyGen Video Guide</h1>
-        <p class="hero-subtitle">Cẩm nang và đánh giá chi tiết về các công cụ AI tạo video hàng đầu hiện nay.</p>
+        <img src="brand_banner.png" alt="AI Video Guide" class="hero-img" style="filter: sepia(0.2) saturate(1.2);">
+        <h1>AI Video Learning Guide</h1>
+        <p class="hero-subtitle">Cẩm nang thực chiến dành cho người mới. Chúng tôi giúp bạn chọn đúng công cụ và làm chủ công nghệ video AI trong 7 ngày.</p>
         
         <div class="search-container">
-            <input type="text" id="toolSearch" placeholder="Tìm kiếm công cụ (ví dụ: Avatar, Shorts, Cinematic)...">
+            <input type="text" id="toolSearch" placeholder="Bạn muốn làm video gì? (TikTok, Blog, Avatar)...">
         </div>
     </header>
 
     <main class="container">
-        <h2 class="section-title">Danh Bạ Công Cụ AI Video</h2>
+        <div class="news-ticker" style="background: #f8fafc; color: #1e293b; border: 1px solid #e2e8f0;">
+            <span class="ticker-label" style="background: #22c55e; color: #fff;">MỚI CẬP NHẬT:</span>
+            <marquee>Hướng dẫn tạo nhân vật đồng nhất (Consistent Character) bằng Leonardo AI | Top 3 công cụ làm TikTok Shorts nhanh nhất 2026 | Cách nhận tài khoản Luma miễn phí</marquee>
+        </div>
+
+        <h2 class="section-title">Công Cụ AI Dễ Sử Dụng Nhất</h2>
         
         <div class="tools-grid" id="toolsGrid">
             <!-- HeyGen -->
-            <article class="tool-card" data-name="heygen avatar translation lồng tiếng">
+            <article class="tool-card" data-name="heygen avatar translation lồng tiếng dễ dùng">
                 <div class="card-img-container">
-                    <img src="heygen_card.png" alt="HeyGen AI Avatar" class="card-img">
+                    <img src="heygen_card.png" alt="HeyGen AI" class="card-img">
                 </div>
                 <div class="card-content">
-                    <span class="tag">Bán chạy nhất</span>
-                    <h3>HeyGen</h3>
-                    <p class="card-desc">Dẫn đầu về AI Avatar và dịch thuật video. Tạo video có người nói chân thực chỉ từ văn bản. Phù hợp cho YouTube Faceless và Marketing.</p>
-                    <a href="#" data-id="heygen" target="_blank" rel="noopener" class="cta-btn">Bắt đầu miễn phí</a>
+                    <span class="tag" style="background: #22c55e;">Recommend cho người mới</span>
+                    <h3>HeyGen Guide</h3>
+                    <p class="card-desc">Chỉ cần 5 phút để tạo video đầu tiên. Giao diện cực kỳ thân thiện, hỗ trợ tiếng Việt tốt nhất hiện nay.</p>
+                    <a href="#" data-id="heygen" target="_blank" rel="noopener" class="cta-btn">Thử ngay miễn phí</a>
                     <div class="tool-meta">
                         <span>⭐ 4.9/5</span>
-                        <span>Commission: 20%</span>
+                        <span>Easy to use</span>
                     </div>
                 </div>
             </article>
 
-            <!-- Synthesia -->
-            <article class="tool-card" data-name="synthesia corporate business avatar chuyên nghiệp">
+            <!-- Pika Labs -->
+            <article class="tool-card" data-name="pika labs animation nghệ thuật dễ dàng">
                 <div class="card-img-container">
-                    <img src="synthesia_card.png" alt="Synthesia AI" class="card-img">
+                    <img src="pika_labs_card.png" alt="Pika Labs" class="card-img">
                 </div>
                 <div class="card-content">
-                    <span class="tag">Doanh nghiệp</span>
-                    <h3>Synthesia</h3>
-                    <p class="card-desc">Nền tảng tạo video AI chuyên nghiệp cho đào tạo và doanh nghiệp. Hơn 140+ avatar đa dạng và chất lượng video studio.</p>
-                    <a href="#" data-id="synthesia" target="_blank" rel="noopener" class="cta-btn">Xem bản Demo</a>
+                    <span class="tag">Sáng tạo cực nhanh</span>
+                    <h3>Pika Labs</h3>
+                    <p class="card-desc">Tuyệt vời để tạo các clip ngắn sống động cho mạng xã hội. Bạn có thể dùng trực tiếp trên trình duyệt hoặc Discord rất tiện lợi.</p>
+                    <a href="#" data-id="pika" target="_blank" rel="noopener" class="cta-btn">Bắt đầu với Pika</a>
                     <div class="tool-meta">
-                        <span>⭐ 4.8/5</span>
-                        <span>Commission: 20%</span>
+                        <span>⭐ 4.7/5</span>
+                        <span>Free credits available</span>
                     </div>
                 </div>
             </article>
 
             <!-- Pictory -->
-            <article class="tool-card" data-name="pictory shorts tiktok blog to video tự động">
+            <article class="tool-card" data-name="pictory shorts tiktok blog to video tự động đơn giản">
                 <div class="card-img-container">
                     <img src="pictory_card.png" alt="Pictory AI" class="card-img">
                 </div>
                 <div class="card-content">
-                    <span class="tag">Content Creator</span>
-                    <h3>Pictory</h3>
-                    <p class="card-desc">Biến bài viết blog hoặc kịch bản dài thành video ngắn cho TikTok/Shorts chỉ trong vài phút. Tự động thêm phụ đề và hình ảnh minh họa.</p>
-                    <a href="#" data-id="pictory" target="_blank" rel="noopener" class="cta-btn">Tạo video ngay</a>
-                    <div class="tool-meta">
-                        <span>⭐ 4.7/5</span>
-                        <span>Commission: Up to 50%</span>
-                    </div>
-                </div>
-            </article>
-
-            <!-- Runway -->
-            <article class="tool-card" data-name="runway gen-3 cinematic điện ảnh hiệu ứng">
-                <div class="card-img-container">
-                    <img src="ai_video_hero.png" alt="Runway Gen-3" class="card-img" style="filter: hue-rotate(45deg);">
-                </div>
-                <div class="card-content">
-                    <span class="tag">Sáng tạo nghệ thuật</span>
-                    <h3>Runway Gen-3</h3>
-                    <p class="card-desc">Công cụ tạo video từ văn bản (Text-to-Video) mang tính điện ảnh. Cung cấp các tính năng chỉnh sửa video AI chuyên sâu cho nhà làm phim.</p>
-                    <a href="#" data-id="runway" target="_blank" rel="noopener" class="cta-btn">Trải nghiệm Gen-3</a>
-                    <div class="tool-meta">
-                        <span>⭐ 4.9/5</span>
-                        <span>Commission: Custom</span>
-                    </div>
-                </div>
-            </article>
-
-            <!-- InVideo -->
-            <article class="tool-card" data-name="invideo marketing templates quảng cáo">
-                <div class="card-img-container">
-                    <img src="invideo_card.png" alt="InVideo AI" class="card-img">
-                </div>
-                <div class="card-content">
-                    <span class="tag">Dễ sử dụng nhất</span>
-                    <h3>InVideo AI</h3>
-                    <p class="card-desc">Tạo video marketing chuyên nghiệp với hàng nghìn mẫu thiết kế có sẵn. AI giúp bạn lên kịch bản và dựng phim tự động hoàn toàn.</p>
-                    <a href="#" data-id="invideo" target="_blank" rel="noopener" class="cta-btn">Thử InVideo AI</a>
+                    <span class="tag">Cho YouTuber</span>
+                    <h3>Pictory AI</h3>
+                    <p class="card-desc">Giải pháp số 1 để làm video YouTube Faceless. Chỉ cần dán nội dung bài viết, Pictory sẽ làm tất cả phần còn lại cho bạn.</p>
+                    <a href="#" data-id="pictory" target="_blank" rel="noopener" class="cta-btn">Tạo video đầu tiên</a>
                     <div class="tool-meta">
                         <span>⭐ 4.8/5</span>
-                        <span>Commission: 25-50%</span>
+                        <span>No editing skills needed</span>
                     </div>
                 </div>
             </article>
 
-            <!-- Sora -->
-            <article class="tool-card" data-name="sora openai cinematic tương lai">
+            <!-- CapCut -->
+            <article class="tool-card" data-name="capcut ai tạo video tiếng việt xóa nền phụ đề tự động">
                 <div class="card-img-container">
-                    <img src="sora_card.png" alt="OpenAI Sora" class="card-img">
+                    <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="CapCut AI" class="card-img" style="object-fit: cover;">
                 </div>
                 <div class="card-content">
-                    <span class="tag">Sắp ra mắt</span>
-                    <h3>OpenAI Sora</h3>
-                    <p class="card-desc">Công nghệ video AI thay đổi thế giới của OpenAI. Tạo ra những thước phim 60 giây chân thực đến kinh ngạc.</p>
-                    <a href="#" class="cta-btn" style="background: #333; cursor: not-allowed;">Chờ truy cập</a>
+                    <span class="tag" style="background: #000;">Phổ biến tại VN</span>
+                    <h3>CapCut AI</h3>
+                    <p class="card-desc">Lựa chọn số 1 cho người dùng Việt Nam. Hỗ trợ tạo video từ văn bản, xóa nền, và tạo phụ đề tự động bằng tiếng Việt cực chuẩn.</p>
+                    <a href="https://www.capcut.com/" target="_blank" rel="noopener" class="cta-btn">Sử dụng CapCut</a>
                     <div class="tool-meta">
-                        <span>⭐ 5.0/5</span>
-                        <span>Coming Soon</span>
+                        <span>⭐ 4.9/5</span>
+                        <span>Free & Easy</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Hailuo AI -->
+            <article class="tool-card" data-name="hailuo ai image to video tạo video từ ảnh miễn phí">
+                <div class="card-img-container">
+                    <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Hailuo AI" class="card-img" style="object-fit: cover;">
+                </div>
+                <div class="card-content">
+                    <span class="tag" style="background: #ec4899;">Hot Image-to-Video</span>
+                    <h3>Hailuo AI</h3>
+                    <p class="card-desc">Biến mọi bức ảnh tĩnh thành video sống động với chuyển động tự nhiên. Đây là công cụ AI video miễn phí từ ảnh hàng đầu hiện nay.</p>
+                    <a href="https://hailuo.ai/" target="_blank" rel="noopener" class="cta-btn">Thử Hailuo AI</a>
+                    <div class="tool-meta">
+                        <span>⭐ 4.8/5</span>
+                        <span>Realistic Motion</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Viggle AI -->
+            <article class="tool-card" data-name="viggle ai tạo video từ ảnh nhân vật sống động">
+                <div class="card-img-container">
+                    <img src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Viggle AI" class="card-img" style="object-fit: cover;">
+                </div>
+                <div class="card-content">
+                    <span class="tag" style="background: #8b5cf6;">Character AI</span>
+                    <h3>Viggle AI</h3>
+                    <p class="card-desc">Chuyên gia biến ảnh nhân vật thành video nhảy múa hoặc diễn xuất theo yêu cầu. Phù hợp cho sáng tạo nội dung TikTok hài hước.</p>
+                    <a href="https://viggle.ai/" target="_blank" rel="noopener" class="cta-btn">Khám phá Viggle</a>
+                    <div class="tool-meta">
+                        <span>⭐ 4.7/5</span>
+                        <span>Character Animation</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Luma AI -->
+            <article class="tool-card" data-name="luma ai dream machine hướng dẫn sử dụng">
+                <div class="card-img-container">
+                    <img src="luma_ai_card.png" alt="Luma AI" class="card-img">
+                </div>
+                <div class="card-content">
+                    <span class="tag">Hot trending</span>
+                    <h3>Luma AI Guide</h3>
+                    <p class="card-desc">Hướng dẫn cách tạo video từ ảnh (Image-to-Video) để có những thước phim chân thực mà không cần biết quay phim.</p>
+                    <a href="#" data-id="luma" target="_blank" rel="noopener" class="cta-btn">Xem hướng dẫn Luma</a>
+                    <div class="tool-meta">
+                        <span>⭐ 4.8/5</span>
+                        <span>Powerful AI</span>
                     </div>
                 </div>
             </article>
         </div>
 
+        <!-- Learning Section -->
+        <section class="learning-section" style="margin-top: 6rem; background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%); padding: 4rem; border-radius: 24px; color: #1e293b;">
+            <div style="display: flex; gap: 4rem; align-items: center; flex-wrap: wrap;">
+                <div style="flex: 1; min-width: 300px;">
+                    <img src="ai_news_banner.png" alt="AI Learning" style="width: 100%; border-radius: 16px; border: 8px solid #fff; box-shadow: 0 20px 40px rgba(0,0,0,0.1);">
+                </div>
+                <div style="flex: 1; min-width: 300px;">
+                    <h2 style="color: #0369a1; font-size: 2.5rem; font-weight: 800; margin-bottom: 2rem;">Trung Tâm Đào Tạo AI Video</h2>
+                    <div style="display: grid; gap: 1.5rem;">
+                        <div style="background: #fff; padding: 1.5rem; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+                            <h4 style="color: #0c4a6e;">📖 Bước 1: Chọn công cụ phù hợp</h4>
+                            <p style="font-size: 0.9rem; color: #475569;">Đừng dùng Sora nếu bạn chỉ cần làm video Marketing đơn giản. HeyGen hoặc Pictory sẽ hiệu quả hơn nhiều.</p>
+                        </div>
+                        <div style="background: #fff; padding: 1.5rem; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+                            <h4 style="color: #0c4a6e;">📖 Bước 2: Kỹ thuật giữ nhân vật (Consistency)</h4>
+                            <p style="font-size: 0.9rem; color: #475569;">Sử dụng tính năng 'Reference Image' trong Luma hoặc Leonardo để nhân vật của bạn không bị biến đổi qua từng cảnh.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- SEO Article Section -->
         <section class="seo-section" style="margin-top: 6rem;">
-            <h2>Top 5 Xu Hướng AI Video Generator 2026</h2>
-            <p>Trong năm 2026, việc sở hữu một <strong>AI Video Generator</strong> không còn là lựa chọn mà là bắt buộc đối với bất kỳ nhà sáng tạo nội dung nào. Các công cụ như <strong>HeyGen</strong> đã giúp việc dịch video và tạo avatar trở nên đơn giản hơn bao giờ hết.</p>
+            <h2>Bí quyết tạo video triệu view với AI Video Beginner Guide</h2>
+            <p>Năm 2026, <strong>Best AI video generators for social media</strong> là những công cụ giúp bạn tạo nội dung nhanh nhất. Nếu bạn là người mới, hãy bắt đầu với <strong>InVideo AI</strong> hoặc <strong>HeyGen</strong>.</p>
             
             <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin-top: 2rem;">
                 <div>
-                    <h3>1. Tạo Video từ Văn Bản (Text-to-Video)</h3>
-                    <p>Các công cụ như <strong>Runway Gen-3</strong> và <strong>Sora</strong> đang xóa nhòa ranh giới giữa video do AI tạo ra và cảnh quay thực tế. Điều này mở ra cơ hội cho các kênh YouTube kể chuyện (Storytelling) phát triển mạnh mẽ.</p>
+                    <h3>Tạo video từ hình ảnh (Image-to-Video)</h3>
+                    <p>Học cách sử dụng <strong>Hailuo AI</strong> và <strong>Viggle AI</strong> để biến ảnh tĩnh thành video. Đây là kỹ năng quan trọng nhất để xây dựng thương hiệu cá nhân trên TikTok bằng AI mà không cần lộ mặt.</p>
                 </div>
                 <div>
-                    <h3>2. Video Cá Nhân Hóa (Personalized Video)</h3>
-                    <p>Sử dụng <strong>Synthesia</strong> hoặc <strong>HeyGen</strong> để gửi tin nhắn video cho khách hàng với tên riêng của họ đang là xu hướng Marketing chuyển đổi cao nhất hiện nay.</p>
+                    <h3>Công cụ AI tích hợp tiếng Việt</h3>
+                    <p>Sử dụng <strong>CapCut</strong> hoặc <strong>AIPhoGPT.com</strong> để tạo ra các video hướng dẫn có ích. Google cực kỳ ưu tiên các nội dung có tính giải đáp thắc mắc của người dùng bằng ngôn ngữ bản địa.</p>
                 </div>
             </div>
 
-            <h3 style="margin-top: 2rem;">Cách kiếm tiền với AI Video Affiliate</h3>
-            <p>Để thành công trong việc làm affiliate cho các công cụ AI, bạn cần tập trung vào các từ khóa "Best AI tools for [Niche]" hoặc các bài so sánh "A vs B". Trang web này là một ví dụ điển hình về việc tập hợp các công cụ tốt nhất để tối ưu hóa tỷ lệ chuyển đổi cho người dùng.</p>
+            <h3 style="margin-top: 2rem;">Hành trình trở thành AI Video Creator</h3>
+            <p>Chúng tôi cập nhật liên tục các <strong>AI video beginner guide</strong> để bạn không bỏ lỡ bất kỳ xu hướng nào. Hãy lưu trang web này lại để theo dõi những công cụ mới nhất và các thủ thuật làm video chuyên nghiệp.</p>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2026 AI Video Directory. Một dự án của Trần Diệu.</p>
+    <footer>
+        <div class="footer-network" style="margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid rgba(255,255,255,0.1);">
+            <h4 style="color: #38bdf8; margin-bottom: 1rem;">🌐 GLOBAL AI ECOSYSTEM (Ma Trận AI Toàn Cầu):</h4>
+            <div style="display: flex; gap: 1.5rem; flex-wrap: wrap; font-size: 0.9rem;">
+                <a href="https://aivideo-factory.vercel.app/" style="color: #94a3b8; text-decoration: none;">🏭 AI Factory (Production)</a>
+                <a href="https://aivideo-tech.vercel.app/" style="color: #94a3b8; text-decoration: none;">💻 AI Tech (Benchmarks)</a>
+                <a href="https://trandieu-pro.vercel.app/" style="color: #94a3b8; text-decoration: none;">💎 AI Pro (Cinematic)</a>
+                <a href="https://aivideo-guide.vercel.app/" style="color: #fff; text-decoration: none; font-weight: 600;">📚 AI Guide (Tutorials)</a>
+                <a href="biolink.html" style="color: #f59e0b; text-decoration: none; font-weight: bold;">🔗 GLOBAL HUB</a>
+            </div>
+        </div>
+        <p>&copy; 2026 AI Video Factory Empire. Một dự án của Trần Diệu.</p>
+        <div style="margin-top: 10px; font-size: 0.85rem;">
+            <a href="https://youtube.com/@AIVideoFactory_Global" style="color: #ef4444; text-decoration: none; margin-right: 15px;">🎬 YouTube Global</a>
+            <a href="https://tiktok.com/@ai_video_factory" style="color: #fff; text-decoration: none; margin-right: 15px;">🎵 TikTok Trends</a>
+            <span style="color: #94a3b8;">📧 Contact: <b>trangiaanh2003@gmail.com</b></span>
+        </div>
         <div class="footer-links">
             <a href="#">Về chúng tôi</a>
             <a href="#">Tất cả công cụ AI</a>
